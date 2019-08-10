@@ -6,7 +6,7 @@ font-family: 'Cardo', serif;
 .backImg{
 	width:100%;
 	height:100vh auto;
-	background-image:url('');
+	background-image:url('l.jpg');
 	background-size:cover;
 	display:flex;
 	align-items:center;
@@ -15,9 +15,9 @@ font-family: 'Cardo', serif;
 	color:white;
 	}
 .divImg{
-	width:50%;
+	width:300px auto;
 	height:100vh ;
-	background-image:url('w2.jpg');
+	background-image:url('');
 	background-size:cover;
 	display:flex;
 	align-items:center;
@@ -25,6 +25,7 @@ font-family: 'Cardo', serif;
 	text-align:center;
 	color:white;
 	}
+	
 .profile{
 	width:300px;
 	background-color:rgba(0,0,0,0.5);
@@ -58,13 +59,20 @@ img{
 }
 p{
 	color:black ;
-	font-size:30px;
+	font-size:25px;
 	font-family: 'Cardo', serif;
+	text-align:left;
 }
 h3{
 	color:black;
-	font-size:40px;
+	font-size:35px;
 	font-family: 'Cardo', serif;
+}
+ br{
+	color:blue;
+	font-size:30px;
+	font-family: 'Cardo', serif;
+	text-align:left;
 }
 ul li{
 	color:black;
@@ -75,3 +83,18 @@ ul li{
 .profileFont i{
          color:black;
 }
+i:hover{
+	background-color:white;
+    
+}
+hr{
+color:black;
+}
+
+table, th, td {
+  border: 2px solid black;
+  font-size:20px;
+  font-family: 'Cardo', serif;
+  color:black;
+}
+
